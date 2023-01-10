@@ -1,0 +1,4 @@
+build:
+	mpicc -o ask2 ask2.c -lm -g
+clean:	
+	rm ask1

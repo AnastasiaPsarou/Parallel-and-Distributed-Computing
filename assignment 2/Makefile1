@@ -1,0 +1,6 @@
+CC=gcc
+CFLAGS=-Wall -fopenmp 
+objects = ask1
+
+$(objects): %: %.c
+		$(CC) $(CFLAGS) $< -o $@ 
